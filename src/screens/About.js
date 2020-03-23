@@ -12,7 +12,7 @@ class About extends Component {
   }
   render() {
     console.log("state wisharray", this.state.wishArray);
-    console.log("action in about", Aboutaction.type);
+    // console.log("action in about", Aboutaction);
     return (
       <div>
         <h1>About Page</h1>
