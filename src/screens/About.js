@@ -21,7 +21,12 @@ class About extends Component {
             <li>{val}</li>
           ))}
         </ul>
-        <button onClick={() => this.props.stateChange()}>about change</button>
+        <button
+          className="waves-effect waves-light btn"
+          onClick={() => this.props.stateChange()}
+        >
+          Second Item Change
+        </button>
       </div>
     );
   }
@@ -35,7 +40,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    stateChange: () => dispatch({ type: "ARRAYCHANGE", payload: "bilal" })
+    stateChange: () => dispatch({ type: "ARRAYCHANGE", payload: "wakeup" })
   };
 };
 
