@@ -5,11 +5,11 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">
+        <div className="nav-wrapper">
+          <a href="#" className="brand-logo">
             Logo
           </a>
-          <ul class="right">
+          <ul className="right">
             <li>
               <Link to="/">Home</Link>
             </li>

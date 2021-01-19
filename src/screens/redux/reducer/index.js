@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import Name from "./Name";
-import { Wishes } from "./Wishes";
+import Wishes from "./Wishes";
 const rootReducer = combineReducers({
   name: Name,
   wishes: Wishes
